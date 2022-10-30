@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="31" failures="0" name="step_definitions.RunCukesTest" time="0.008" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin"/>
+    <property name="java.vm.version" value="25.341-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ACER\IdeaProjects\automationSauce"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ACER\IdeaProjects\automationSauce"/>
+    <property name="java.runtime.version" value="1.8.0_341-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ACER\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_341\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\ACER\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\ACER\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ACER"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ACER"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_341\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_341"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_341\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Normal Login" name="Given User open the web page" time="0.004"/>
+  <testcase classname="Scenario: Normal Login" name="When User input &quot;standard_user&quot; as userName and &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="Scenario: Normal Login" name="Scenario: Normal Login" time="0.001"/>
+  <testcase classname="| asd | secret_sauce | Epic sadface: Username and password do not match any user in this service |" name="Given User open the web page" time="0"/>
+  <testcase classname="| asd | secret_sauce | Epic sadface: Username and password do not match any user in this service |" name="When User input &quot;asd&quot; as userName and &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="| asd | secret_sauce | Epic sadface: Username and password do not match any user in this service |" name="Then User will see &quot;Epic sadface: Username and password do not match any user in this service&quot; on login page" time="0"/>
+  <testcase classname="| asd | secret_sauce | Epic sadface: Username and password do not match any user in this service |" name="| asd | secret_sauce | Epic sadface: Username and password do not match any user in this service |" time="0"/>
+  <testcase classname="| standard_user | 123 | Epic sadface: Username and password do not match any user in this service |" name="Given User open the web page" time="0.001"/>
+  <testcase classname="| standard_user | 123 | Epic sadface: Username and password do not match any user in this service |" name="When User input &quot;standard_user&quot; as userName and &quot;123&quot; as password" time="0"/>
+  <testcase classname="| standard_user | 123 | Epic sadface: Username and password do not match any user in this service |" name="Then User will see &quot;Epic sadface: Username and password do not match any user in this service&quot; on login page" time="0"/>
+  <testcase classname="| standard_user | 123 | Epic sadface: Username and password do not match any user in this service |" name="| standard_user | 123 | Epic sadface: Username and password do not match any user in this service |" time="0.001"/>
+  <testcase classname="| asd | 123 | Epic sadface: Username and password do not match any user in this service |" name="Given User open the web page" time="0"/>
+  <testcase classname="| asd | 123 | Epic sadface: Username and password do not match any user in this service |" name="When User input &quot;asd&quot; as userName and &quot;123&quot; as password" time="0"/>
+  <testcase classname="| asd | 123 | Epic sadface: Username and password do not match any user in this service |" name="Then User will see &quot;Epic sadface: Username and password do not match any user in this service&quot; on login page" time="0"/>
+  <testcase classname="| asd | 123 | Epic sadface: Username and password do not match any user in this service |" name="| asd | 123 | Epic sadface: Username and password do not match any user in this service |" time="0"/>
+  <testcase classname="Given User open the web page(Scenario: User will sort item by Name (Z to A))" name="Given User open the web page(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="When User input &quot;standard_user&quot; as userName and &quot;secret_sauce&quot; as password(Scenario: User will sort item by Name (Z to A))" name="When User input &quot;standard_user&quot; as userName and &quot;secret_sauce&quot; as password(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="Then User sort product list by &quot;Name (Z to A)&quot;(Scenario: User will sort item by Name (Z to A))" name="Then User sort product list by &quot;Name (Z to A)&quot;(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="Then User choose first item &quot;Test.allTheThings() T-Shirt (Red)&quot; and checkout to cart(Scenario: User will sort item by Name (Z to A))" name="Then User choose first item &quot;Test.allTheThings() T-Shirt (Red)&quot; and checkout to cart(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="And User choose second item &quot;Sauce Labs Onesie&quot; and checkout to cart(Scenario: User will sort item by Name (Z to A))" name="And User choose second item &quot;Sauce Labs Onesie&quot; and checkout to cart(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="Then User click Cart Icon(Scenario: User will sort item by Name (Z to A))" name="Then User click Cart Icon(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="Then User click button remove item(Scenario: User will sort item by Name (Z to A))" name="Then User click button remove item(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="And User click button checkout(Scenario: User will sort item by Name (Z to A))" name="And User click button checkout(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="Then User input &quot;Rezki&quot; as firstname and &quot;Adina&quot; as lasname and &quot;123&quot; as postalcode(Scenario: User will sort item by Name (Z to A))" name="Then User input &quot;Rezki&quot; as firstname and &quot;Adina&quot; as lasname and &quot;123&quot; as postalcode(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="And User click button continue(Scenario: User will sort item by Name (Z to A))" name="And User click button continue(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="Then User verify total item &quot;Item total: $7.99&quot; as expected total item(Scenario: User will sort item by Name (Z to A))" name="Then User verify total item &quot;Item total: $7.99&quot; as expected total item(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="And User verify tax item &quot;Tax: $0.64&quot; as expected tax item(Scenario: User will sort item by Name (Z to A))" name="And User verify tax item &quot;Tax: $0.64&quot; as expected tax item(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="And User verifiy Total price &quot;Total: $8.63&quot; as expected total price(Scenario: User will sort item by Name (Z to A))" name="And User verifiy Total price &quot;Total: $8.63&quot; as expected total price(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="Then User click button Finish(Scenario: User will sort item by Name (Z to A))" name="Then User click button Finish(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="Then User verify &quot;THANK YOU FOR YOUR ORDER&quot; as finishing text(Scenario: User will sort item by Name (Z to A))" name="Then User verify &quot;THANK YOU FOR YOUR ORDER&quot; as finishing text(Scenario: User will sort item by Name " time="0"/>
+  <testcase classname="Z to A" name="Scenario: User will sort item by Name " time="0.001"/>
+</testsuite>
